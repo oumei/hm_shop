@@ -1,0 +1,1 @@
+<view class="news-detail"><text class="title">{{detail.goods_name}}</text><view class="info"><text>{{"发表时间："+$root.f0}}</text><text>{{"浏览："+detail.hot_mumber+"次"}}</text></view><view class="content"><rich-text nodes="{{detail.goods_introduce}}"></rich-text></view></view>
